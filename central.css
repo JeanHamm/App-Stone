@@ -23,7 +23,6 @@
         color: var(--cor-cabeca-dados);
         font-family: var(--font-cabeca-dados);
         padding: 0px 0px 0px 18px;
-        
     }
         .cabeca__dados__nome{
             font-size: 18px;
@@ -111,7 +110,6 @@
         }
             .corpo__secessao__blocos__tranferencias__div{
                 display: flex;
-                gap: ;
                 align-items: center;
                 justify-content: space-between;
                 margin: 17.5px 22px 36px 22px;
@@ -137,5 +135,55 @@
                         .corpo__secessao__blocos__tranferencias__div__icon__borda__imag{
                             margin-top: 30%
                         }
+
+
+        .corpo__secessao__blocos__recebimentos{
+            margin: 13px 0px;
+            background-color: var(--cor-corpo-secessao-blocos);
+            width: 333px;
+            border-radius: 15px;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 1px 1px 0.5px #E6E6E6, inset 1px 1px 0.5px #E5E5E5;
+        }
+            .corpo__secessao__blocos__recebimentos_recebimento-total{
+                display: flex;
+                flex-direction: column;
+                color: var(--cor-corpo-titulos);
+                font-family: var(--font-cabeca-dados);
+                gap: 5px;
+                margin: 9px 0px 0px 11px;
+
+            }
+                .corpo__secessao__blocos__recebimentos_recebimento-total__titulo{
+                    font-size: 12px;
+                    font-weight: 400;
+                }   
+                .corpo__secessao__blocos__recebimentos_recebimento-total__texto{
+                    font-size: 16px;
+                    font-weight: 700;
+                }
+            .corpo__secessao__blocos__recebimentos__recebimentos-forma{
+                display: flex;
+                justify-content: space-between;
+                margin: 0px 19px;
+                font-family: var(--font-cabeca-dados);
+                color: var(--cor-corpo-titulos);
+            }
+                .corpo__secessao__blocos__recebimentos__recebimentos-forma__debito{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                }
+                    .corpo__secessao__blocos__recebimentos__recebimentos-forma__debito>h2{
+                        font-size: 12px;
+                        font-weight: 400;
+                    }
+                    .corpo__secessao__blocos__recebimentos__recebimentos-forma__debito>p{
+                        font-size: 16px;
+                        font-weight: 700;
+                    }
+            
+            
 
 /*    Main Fim     */
