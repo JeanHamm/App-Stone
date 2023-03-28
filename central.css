@@ -166,24 +166,95 @@
             .corpo__secessao__blocos__recebimentos__recebimentos-forma{
                 display: flex;
                 justify-content: space-between;
-                margin: 0px 19px;
+                margin: 17px 19px 0px 11px;
                 font-family: var(--font-cabeca-dados);
                 color: var(--cor-corpo-titulos);
             }
-                .corpo__secessao__blocos__recebimentos__recebimentos-forma__debito{
+                .corpo__secessao__blocos__recebimentos__recebimentos-forma__cred-deb{
                     display: flex;
                     flex-direction: column;
-                    gap: 10px;
+                    gap: 3px;
                 }
-                    .corpo__secessao__blocos__recebimentos__recebimentos-forma__debito>h2{
+                    .corpo__secessao__blocos__recebimentos__recebimentos-forma__cred-deb>h2{
                         font-size: 12px;
                         font-weight: 400;
                     }
-                    .corpo__secessao__blocos__recebimentos__recebimentos-forma__debito>p{
+                    .corpo__secessao__blocos__recebimentos__recebimentos-forma__cred-deb>p{
                         font-size: 16px;
                         font-weight: 700;
                     }
             
-            
-
+            .corpo__secessao__blocos__recebimentos__recebimentos-hoje{
+                display: flex;
+                justify-content: space-between;
+                font-family: var(--font-cabeca-dados);
+                color: var(--cor-corpo-titulos);
+                margin: 29px 19px 0px 6.25px;
+            }
+                .corpo__secessao__blocos__recebimentos__recebimentos-hoje>h2{
+                    font-weight: 700;
+                    font-size: 13px;
+                }
+                .corpo__secessao__blocos__recebimentos__recebimentos-hoje>div{
+                    display: flex;
+                    justify-content: space-between;
+                    gap: 8.6px;
+                }
+                    .corpo__secessao__blocos__recebimentos__recebimentos-hoje>div>p{
+                        font-weight: 700;
+                        font-size: 13px;
+                    }
+            .corpo__secessao__blocos__recebimentos__divisao{
+                border: none;
+                text-align: center;
+                background-color: var(--cor-corpo-icon);
+                height: 1px;
+                width: 306px;
+                margin: 18px auto 11px auto;
+            }
+            .corpo__secessao__blocos__recebimentos__futuros{
+                display: flex;
+                justify-content: space-between;
+                margin: 5px 19px 0px 6.25px;
+                align-items: center;
+            }
+                .corpo__secessao__blocos__recebimentos__futuros__Titulo{
+                    display: flex;
+                    flex-direction: column;
+                    font-family: var(--font-cabeca-dados);
+                    color: var(--cor-corpo-titulos);
+                    gap: 4px;
+                }
+                    .corpo__secessao__blocos__recebimentos__futuros__Titulo>h2{
+                        font-size: 13px;
+                        font-weight: 700;
+                    }                    
+                    .corpo__secessao__blocos__recebimentos__futuros__Titulo>p{
+                        font-size: 13px;
+                        font-weight: 400;
+                    }
+                .corpo__secessao__blocos__recebimentos__futuros__valor{
+                    display: flex;
+                    justify-content: space-between;
+                    font-family: var(--font-cabeca-dados);
+                    color: var(--cor-corpo-titulos);
+                    gap: 8.6px;
+                }
+                .corpo__secessao__blocos__recebimentos__futuros__valor>p{
+                    font-size: 13px;
+                    font-weight: 700;
+                }
+            .corpo__secessao__blocos__recebimentos__antecipação{
+                background-color: var(--cor-corpo-icon);
+                border-radius: 16px;
+                width: 303px;
+                padding: 15px 0px;
+                text-align: center;
+                margin: 24px 0px 17px 15px;
+                font-family: var(--font-cabeca-dados);
+            }
+                .corpo__secessao__blocos__recebimentos__antecipação>p{
+                    font-size: 15px;
+                    font-weight: 700;
+            }
 /*    Main Fim     */
