@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root{
+ --cor-stone: #008F5A;
+ --cor-cabeca-dados: #FFFFFF;
+ --cor-cabeca-icon: #27A475;
+ --cor-corpo-icon: #EBEBEB;
+ --cor-corpo-secessao-blocos: #FFFFFF;
+ --cor-corpo-titulos: #474747;
+ --font-cabeca-dados: 'Inter', sans-serif;
+}
+/*    Header Inicio     */
+.cabeca{
+    background-color: var(--cor-stone);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+    .cabeca__dados{
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+        color: var(--cor-cabeca-dados);
+        font-family: var(--font-cabeca-dados);
+        padding: 0px 0px 0px 18px;
+        
+    }
+        .cabeca__dados__nome{
+            font-size: 18px;
+            font-weight: 700;
+        }
+
+        .cabeca__dados__documento{
+            font-size: 9.5px;
+            font-weight: 700;
+        }
+    
+    .cabeca__icon{
+        display: flex;
+        gap: 11px;
+        padding: 0px 11px 0px 0px;
+    }
+        .cabeca__icon__olho{
+            background-color: var(--cor-cabeca-icon);
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            text-align: center;
+        }
+        .cabeca__icon__olho_img{
+            margin-top: 25%;
+        }
+        .cabeca__icon__perfil{
+            background-color: var(--cor-cabeca-icon);
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            text-align: center;
+        }
+        .cabeca__icon__perfil__img{
+            margin-top: 25%;
+        }
+
+/*    Header Fim     */
+/*    Main Incio     */
+.corpo{
+
+}
+    .corpo__secessao{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 333px;
+        margin: auto;
+        padding-top: 13px;
+    }
+        .corpo__secessao__blocos__saldo{
+            background-color: var(--cor-corpo-secessao-blocos);
+            width: 333px;
+            border-radius: 15px 15px 0px 0px;
+            border-bottom: dashed 2.5px var(--cor-corpo-icon);
+            gap: 5px;
+            box-shadow: inset 1px 1px 0.5px #E5E5E5;
+        }
+            .corpo__secessao__blocos__saldo__div{
+                display: flex;
+                flex-direction: column;
+                margin: 10px 0px 22.5px 22px;
+            }
+                .corpo__secessao__blocos__saldo__div__titulo{
+                    font-family: var(--font-cabeca-dados);
+                    font-weight: 700;
+                    color: var(--cor-corpo-titulos);
+                    font-size: 11px;
+                }   
+                .corpo__secessao__blocos__saldo__div__valor{
+                    font-family: var(--font-cabeca-dados);
+                    font-weight: 700;
+                    color: var(--cor-corpo-titulos);
+                    font-size: 18px;
+                }
+
+
+        .corpo__secessao__blocos__tranferencias{
+            background-color: var(--cor-corpo-secessao-blocos);
+            width: 333px;
+            border-radius: 0px 0px 15px 15px;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 1px 1px 0.5px #E6E6E6;
+        }
+            .corpo__secessao__blocos__tranferencias__div{
+                display: flex;
+                gap: ;
+                align-items: center;
+                justify-content: space-between;
+                margin: 17.5px 22px 36px 22px;
+            }
+                .corpo__secessao__blocos__tranferencias__div__icon{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 6px;
+                    align-items: center;
+                }
+                    .corpo__secessao__blocos__tranferencias__div__icon__texto{
+                        font-family: var(--font-cabeca-dados);
+                        font-weight: 400;
+                        color: var(--cor-corpo-titulos);
+                    }
+                    .corpo__secessao__blocos__tranferencias__div__icon__borda{
+                        background-color: var(--cor-corpo-icon);
+                        border-radius: 50%;
+                        width: 50px;
+                        height: 50px;
+                        text-align: center;
+                    }
+                        .corpo__secessao__blocos__tranferencias__div__icon__borda__imag{
+                            margin-top: 30%
+                        }
+
+/*    Main Fim     */
