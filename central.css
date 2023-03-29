@@ -257,4 +257,143 @@
                     font-size: 15px;
                     font-weight: 700;
             }
+
+            .corpo__secessao__blocos__recebimentos-semana{
+            margin: 13px 0px;
+            background-color: var(--cor-corpo-secessao-blocos);
+            width: 333px;
+            height: 46px;
+            border-radius: 15px;
+            box-shadow: 1px 1px 0.5px #E6E6E6, inset 1px 1px 0.5px #E5E5E5;
+            }
+                .corpo__secessao__blocos__recebimentos-semana__recebimentos{
+                    margin: 15px 18px 15px 14px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    color: var(--cor-corpo-titulos);
+                    font-family: var(--font-cabeca-dados);
+
+                }
+                    .corpo__secessao__blocos__recebimentos-semana__recebimentos>h2{
+                        font-size: 12px;
+                        font-weight: 700;
+                    }
+
+            .corpo__secessao__blocos__vendas7dias{
+            margin: 13px 0px;
+            background-color: var(--cor-corpo-secessao-blocos);
+            width: 333px;
+            border-radius: 15px;
+            box-shadow: 1px 1px 0.5px #E6E6E6, inset 1px 1px 0.5px #E5E5E5;
+            display: flex;
+            flex-direction: column;
+            font-family: var(--font-cabeca-dados);
+            color: var(--cor-corpo-titulos);
+            }
+                .corpo__secessao__blocos__vendas7dias__valores{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin: 15px 18px 15px 14px;
+                }
+                    .corpo__secessao__blocos__vendas7dias__valores>div>h2{
+                        font-size: 10px;
+                        font-weight: 400;
+                    }
+                    .corpo__secessao__blocos__vendas7dias__valores>div>p{
+                        font-size: 18px;
+                        font-weight: 700;
+                    }
+                .corpo__secessao__blocos__vendas7dias__atualizacao{
+                margin: 15px 18px 15px 14px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                
+                }
+                    .corpo__secessao__blocos__vendas7dias__atualizacao>p{   
+                        font-size: 10px;
+                        font-weight: 400;
+                    }
+                    .corpo__secessao__blocos__vendas7dias__atualizacao>div{
+                        background-color: var(--cor-corpo-icon);
+                        width: 30px;
+                        height: 30px;
+                        border-radius: 50%;
+                        text-align: center;
+                    }
+                        .corpo__secessao__blocos__vendas7dias__atualizacao>div>img{
+                            margin-top: 23%;
+                        }
+            .corpo__secessao__precisamaquininha{
+                margin: 13px 0px;
+                background-color: var(--cor-corpo-secessao-blocos);
+                width: 333px;
+                border-radius: 15px;
+                box-shadow: 1px 1px 0.5px #E6E6E6, inset 1px 1px 0.5px #E5E5E5;
+                font-family: var(--font-cabeca-dados);
+                color: var(--cor-corpo-titulos);
+                }
+                .corpo__secessao__precisamaquininha>div{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin: 15px 14px 15px 14px;
+                    
+                }
+                    .corpo__secessao__precisamaquininha>div>div{
+                        display: flex;
+                        align-items: center;
+                        gap: 9px;
+                    }
+                        .corpo__secessao__precisamaquininha>div>div>p{
+                            font-size: 10px;
+                            font-weight: 400;
+                        }
+                            .corpo__secessao__precisamaquininha>div>div>p>strong>{
+                                font-weight: 700;
+                            }
+                    .corpo__secessao__precisamaquininha>div>p{
+                        font-size: 10px;
+                        font-weight: 700;
+                    }
+
+            .corpo__secessao__blocos__multi{
+                margin: 13px 0px;
+                width: 333px;
+                font-family: var(--font-cabeca-dados);
+                color: var(--cor-corpo-titulos);
+                display: flex;
+                flex-wrap: wrap;
+                gap: 14px;
+            }
+            .corpo__secessao__blocos__multi__bloquinhos{
+                height: 72px;
+                width: 100px;
+                border-radius: 8px;
+                background-color: var(--cor-corpo-secessao-blocos);
+                box-shadow: 1px 1px 0.5px #E6E6E6, inset 1px 1px 0.5px #E5E5E5;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 8px;
+            }
+                .corpo__secessao__blocos__multi__bloquinhos>div{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .corpo__secessao__blocos__multi__bloquinhos>p{
+                    font-size: 10px;
+                    font-weight: 400;
+                    text-align: center;
+                }
+
 /*    Main Fim     */
+/*    Footer Inicio     */
+
+
+
+/*    Footer Fim     */
