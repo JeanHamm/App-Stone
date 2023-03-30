@@ -42,10 +42,45 @@
                     font-size: 16px;
                 }   
 
-.corpo{
+    .corpo{
+        background-color: var(--cor-corpo-icon);
+    }
+        .corpo__section{
+            padding: 32px 20px;
+        }
+            .corpo__section__artigo-cadastre{
+                background-color: var(--cor-corpo-secessao-blocos);
+                width: 333px;
+                border-radius: 5px;
+            }
+                .corpo__section__artigo-cadastre>div{
+                    display: flex;
+                    align-items: center;
+                    margin: 0px 16px 0px 35px ;
+                    padding: 20px 0px;
+                    
+                }
+                .corpo__section__artigo-cadastre>div>div{
+                    display: flex;
+                    align-items: center;
+                    gap: 15px;
+                    font-size: 12px;
+                    font-family: var(--font-cabeca-dados);
+                    font-weight: 700;
+                }
+    
+    
+    
+    
+    
+    
+    
+    
+    .rodape{
 
-}
-    .corpo__artigo{
+
+    }
+    .rodape__artigo__fim{
         display: flex;
         flex-direction: column;
         background-color: var(--cor-corpo-secessao-blocos);
@@ -54,20 +89,20 @@
         font-weight: 700;
         font-size: 12px;
     }
-        .corpo__artigo>hr{
+        .rodape__artigo__fim>hr{
             border: none;
             text-align: center;
             background-color: var(--cor-corpo-icon);
             height: 1px;
         }
-        .corpo__artigo>div{
+        .rodape__artigo__fim>div{
             display: flex;
             align-items: center;
             justify-content: space-between;
             padding: 9px 10px;
             
         }
-            .corpo__artigo>div>div{
+            .rodape__artigo__fim>div>div{
                 display: flex;
                 align-items: center;
                 gap: 7.5px;
