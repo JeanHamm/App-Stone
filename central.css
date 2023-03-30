@@ -10,6 +10,46 @@
  --font-cabeca-dados: 'Inter', sans-serif;
 }
 /*    Header Inicio     */
+
+header{
+    height: 94px;
+    background-color: var(--cor-de-fundo);
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25); 
+}
+
+footer{
+    height: 47px;
+    margin: auto;
+    border-radius: 8px 8px 0px 0px;
+    background-color: var(--cor-corpo-secessao-blocos);
+}
+footer>div{
+    margin: 5px 34px 5px 34px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font-cabeca-dados);
+    color: var(--cor-corpo-titulos);
+}
+footer>div>div{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    justify-content: center;
+    align-items: center;
+}
+footer>div>div>p{
+    font-size: 10px;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+
+
+
+
 .cabeca{
     background-color: var(--cor-stone);
     display: flex;
