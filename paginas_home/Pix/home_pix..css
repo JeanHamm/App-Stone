@@ -114,6 +114,7 @@
         font-family: var(--font-cabeca-dados);
         font-weight: 700;
         font-size: 12px;
+        
     }
         .rodape__artigo__fim>hr{
             border: none;
@@ -121,14 +122,15 @@
             background-color: var(--cor-corpo-icon);
             height: 1px;
         }
-        .rodape__artigo__fim>div{
+        .rodape__artigo__fim>div>a{
             display: flex;
             align-items: center;
             justify-content: space-between;
             padding: 09px 10px;
+            color: var(--cor-corpo-titulos);
             
         }
-            .rodape__artigo__fim>div>div{
+            .rodape__artigo__fim>div>a>div{
                 display: flex;
                 align-items: center;
                 gap: 7.5px;

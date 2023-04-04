@@ -7,7 +7,9 @@
     --cor-corpo-titulos: #474747;
     --cor-corpo-secessao-blocos: #FFFFFF;
 }
-
+a{
+    text-decoration: none;
+}
 *{
     margin: 0;
     padding: 0;
@@ -15,6 +17,7 @@
 body{
     width: 360px;
     margin: auto;
+    background-color:gray ;
 }
 
 main{

@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root{
+ --cor-stone: #008F5A;
+ --cor-cabeca-dados: #FFFFFF;
+ --cor-cabeca-icon: #27A475;
+ --cor-corpo-icon: #EBEBEB;
+ --cor-corpo-secessao-blocos: #FFFFFF;
+ --cor-corpo-titulos: #474747;
+ --font-cabeca-dados: 'Inter', sans-serif;
+}
+
+/* Header inicio */
+.cabeca{
+    height: 107px;
+    background-color: var(--cor-cabeca-dados);
+
+}
+.cabeca>div{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 12.8px;
+    padding: 43px 0px 15px 15px;
+}
+    .cabeca>div>h1{
+        font-family: var(--font-cabeca-dados);
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+
+
+
+/* Header Fim */    
+/* Main começo */
+.corpo{
+
+    background-color: var(--cor-corpo-icon);
+    height: 500px;
+}
+    .corpo>div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 25px;
+        padding-top: 200px;
+        font-family: var(--font-cabeca-dados);
+        color: var(--cor-corpo-titulos);
+    }
+        .corpo>div>h2{
+            font-weight: 700;
+            font-size: 14px;
+        }
+        .corpo>div>p{
+            font-weight: 400;
+            font-size: 11px;
+        }
+        .corpo>div>div{
+            display: flex;
+        }
+
+/* Main fim */
+/* Footer começo */
+.rodape{
+    height: 68px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    .rodape>a{
+        text-decoration: none;
+        color: white;
+    }
+        .rodape>a>div{
+            width: 328px;
+            background-color: var(--cor-stone);
+            justify-content: center;
+            padding: 15px 0px;
+            border-radius: 50px;
+
+        }
+            .rodape>a>div>p{
+                font-size: 18px;
+                font-family: var(--font-cabeca-dados);
+                font-weight: 700;
+                text-align: center;
+            }
+
+
+/* Footer fim */
