@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root{
+ --cor-stone: #008F5A;
+ --cor-cabeca-dados: #FFFFFF;
+ --cor-cabeca-icon: #27A475;
+ --cor-corpo-icon: #EBEBEB;
+ --cor-corpo-secessao-blocos: #FFFFFF;
+ --cor-corpo-titulos: #474747;
+ --font-cabeca-dados: 'Inter', sans-serif;
+}
+.cabeca{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cor-cabeca-dados);
+}   
+    .cabeca>div{
+        margin: 24px 34px 0px 26px;
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+    }
+        .cabeca>div>h1{
+            font-size: 18px;
+            font-weight: 400;
+        }
+        .cabeca>div>nav{
+            display: flex;
+            justify-content: space-between;
+
+        }
+        
+.corpo{
+    background-color: var(--cor-cabeca-dados);
+    padding-top: 10px;
+    padding-bottom: 250px;
+}
+    .corpo>section{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        margin: 24px 34px 0px 26px;
+    }
+        .corpo>section>h2{
+            font-size: 14px;
+            font-weight: 700;
+        }
+        .corpo>section>div{
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+        }
+            .corpo>section>div>p{
+                font-size: 9px;
+                font-weight: 400;
+            }
+            .corpo>section>div>ul{
+                font-size: 9px;
+                font-weight: 400;
+                list-style-position: inside;
+            }
+.rodape{
+    background-color: var(--cor-cabeca-dados);
+    display: flex;
+    justify-content: center;
+    padding: 12px 0px;
+}
+    .rodape>div{
+        background-color: var(--cor-stone);
+        width: 328px;
+        padding: 15px 0px;
+        border-radius: 50px;
+        text-align: center;
+    }
+        .rodape>div>a>p{
+            color: var(--cor-cabeca-dados);
+            font-size: 18px;
+            font-weight: 700;
+        }

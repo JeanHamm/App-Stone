@@ -18,6 +18,8 @@ body{
     width: 360px;
     margin: auto;
     background-color:gray ;
+    font-family: var(--font-cabeca-dados);
+    color: var(--cor-corpo-titulos);
 }
 
 main{

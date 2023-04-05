@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root{
+ --cor-stone: #008F5A;
+ --cor-cabeca-dados: #FFFFFF;
+ --cor-cabeca-icon: #27A475;
+ --cor-corpo-icon: #EBEBEB;
+ --cor-corpo-secessao-blocos: #FFFFFF;
+ --cor-corpo-titulos: #474747;
+ --font-cabeca-dados: 'Inter', sans-serif;
+}
+.cabeca{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cor-cabeca-dados);
+}   
+    .cabeca>div{
+        margin: 24px 0px 0px 37px;
+        display: flex;
+        flex-direction: column;
+        gap: 13px;
+    }
+        .cabeca>div>h1{
+            font-size: 18px;
+            font-weight: 400;
+        }
+        .cabeca>div>nav{
+            display: flex;
+            justify-content: space-between;
+
+        }
+.corpo{
+background-color: #FFFFFF;
+padding-top: 29px;
+padding-bottom: 220px;
+}
+    .corpo>section{
+        display: flex;
+        gap: 8px;
+        margin: 0px 34px;
+    }
+        .corpo>section>div{
+            width: 40px;
+            height: 40px;
+            border: 1px solid var(--cor-stone);
+            border-radius: 4px;
+        }
+.rodape{
+    background-color: var(--cor-corpo-icon);
+}
+    .rodape>section{
+        padding: 5px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+        
+    }
+        .rodape>section>div{
+            width: 83px;
+            height: 43px;
+            border-radius: 6px;
+            text-align: center;
+            justify-content: center;
+            background-color: var(--cor-cabeca-dados);
+            display: flex;
+            align-items: center;
+        }
+        .rodape>section>div>p{
+            font-weight: bolder;
+        }
+        .rodape>section>.rodape__gray{
+            background-color: #CCCED5;
+        }
+        .rodape>section>.rodape__blue{  
+             background-color: #1A73E8;
+            color: var(--cor-cabeca-dados);
+        }
+            .rodape>section>.rodape__blue>a{
+                color: var(--cor-cabeca-dados);
+            }
